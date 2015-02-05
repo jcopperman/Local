@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
     GoogleMap googleMap;
 
     @Override
-    protected void onCreate() {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         createMapView();
