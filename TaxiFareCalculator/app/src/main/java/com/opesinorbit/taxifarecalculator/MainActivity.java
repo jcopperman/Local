@@ -21,11 +21,11 @@ public class MainActivity extends Activity {
     GoogleMap googleMap;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate() {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         createMapView();
-        addMarker()
+        addMarker();
     }
 
     /**
